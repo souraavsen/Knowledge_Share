@@ -264,3 +264,119 @@ footer {
   align-items: center;
 }
 
+@media only screen and (max-width: 488px) {
+  header{
+    min-height: 17vh;
+  }
+
+  nav {
+    display: block;
+    margin: 0 auto;
+  }
+
+  .logo{
+    margin-top: 5%;
+    margin-left:26%;
+  }
+
+  nav h2,a{
+    font-size: 0.8rem;
+  }
+
+  nav img{
+    width: 40px;
+    height: 40px;
+  }
+
+  
+  .menu a {
+    margin-left: 1rem;
+  }
+
+  .container {
+    width: 80%;
+  }
+
+  .section_title,
+  .name,
+  .blog_title,
+  .blog_author {
+    text-align: center;
+  }
+  
+  .authors,
+  .blogs {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .author,
+  .blog {
+    flex-direction: column;
+  }
+
+  .courses {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .course{
+    margin: auto;
+  }
+
+}
+
+@media only screen and (min-width: 489px) and (max-width: 1048px) {
+
+  nav {
+    width: 80%;
+  }
+  nav img{
+    width: 30px;
+  }
+
+  .logo img{
+    width: 40px;
+    height: 40px;
+  }
+
+  nav h2,a{
+    font-size: 0.9rem;
+  }
+
+  .menu{
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .container {
+    width: 80%;
+  }
+
+  .section_title {
+    text-align: center;
+  }
+
+  .authors {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .author h3{
+    font-size: 0.8rem;
+  }
+
+  .blogs {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .courses {
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin: auto;
+  }
+
+  .course {
+    margin: auto;
+  }
+
+}
