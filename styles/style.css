@@ -323,6 +323,10 @@ footer {
     margin: auto;
   }
 
+  footer h3{
+    font-size: 0.7rem;
+  }
+
 }
 
 @media only screen and (min-width: 489px) and (max-width: 1048px) {
@@ -377,6 +381,10 @@ footer {
 
   .course {
     margin: auto;
+  }
+
+  footer h3{
+    font-size: 1rem;
   }
 
 }
